@@ -59,12 +59,20 @@
 				DD9694EE239C6E8100D5C9F4 /* AppDelegate.swift */,
 				DD9694F0239C6E8100D5C9F4 /* SceneDelegate.swift */,
 				DD9694F2239C6E8100D5C9F4 /* ViewController.swift */,
-				DD9694F4239C6E8100D5C9F4 /* Main.storyboard */,
+				DD969502239C6F4600D5C9F4 /* Storyboards */,
 				DD9694F7239C6E8200D5C9F4 /* Assets.xcassets */,
-				DD9694F9239C6E8200D5C9F4 /* LaunchScreen.storyboard */,
 				DD9694FC239C6E8200D5C9F4 /* Info.plist */,
 			);
 			path = "Stars-Joe-McLaughlin";
+			sourceTree = "<group>";
+		};
+		DD969502239C6F4600D5C9F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DD9694F4239C6E8100D5C9F4 /* Main.storyboard */,
+				DD9694F9239C6E8200D5C9F4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
