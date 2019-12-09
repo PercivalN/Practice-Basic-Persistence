@@ -37,16 +37,15 @@ class StarsViewController: UIViewController {
 		nameTextField.becomeFirstResponder()
 		tableView.reloadData()
 	}
-
 }
 
 extension StarsViewController: UITableViewDataSource {
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 0
+		return starController.stars.count
 	}
 
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		return UITableViewCell()
+		return indexPath
 	}
 
 

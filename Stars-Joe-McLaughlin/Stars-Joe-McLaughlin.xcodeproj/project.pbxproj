@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD2F1A8C239CC65200ABC357 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F1A8B239CC65200ABC357 /* Star.swift */; };
 		DD2F1A90239CC74000ABC357 /* StarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F1A8F239CC74000ABC357 /* StarController.swift */; };
+		DD5B5548239F0BB5004C4178 /* StarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B5547239F0BB5004C4178 /* StarTableViewCell.swift */; };
 		DD9694EF239C6E8100D5C9F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9694EE239C6E8100D5C9F4 /* AppDelegate.swift */; };
 		DD9694F1239C6E8100D5C9F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9694F0239C6E8100D5C9F4 /* SceneDelegate.swift */; };
 		DD9694F3239C6E8100D5C9F4 /* StarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9694F2239C6E8100D5C9F4 /* StarsViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		DD2F1A8B239CC65200ABC357 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 		DD2F1A8F239CC74000ABC357 /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
+		DD5B5547239F0BB5004C4178 /* StarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTableViewCell.swift; sourceTree = "<group>"; };
 		DD9694EB239C6E8100D5C9F4 /* Stars-Joe-McLaughlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stars-Joe-McLaughlin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9694EE239C6E8100D5C9F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9694F0239C6E8100D5C9F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				DD9694FC239C6E8200D5C9F4 /* Info.plist */,
 				DD2F1A8E239CC65E00ABC357 /* Models */,
 				DD2F1A91239CC74400ABC357 /* Model Controller */,
+				DD5B5547239F0BB5004C4178 /* StarTableViewCell.swift */,
 			);
 			path = "Stars-Joe-McLaughlin";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9694F3239C6E8100D5C9F4 /* StarsViewController.swift in Sources */,
+				DD5B5548239F0BB5004C4178 /* StarTableViewCell.swift in Sources */,
 				DD9694EF239C6E8100D5C9F4 /* AppDelegate.swift in Sources */,
 				DD2F1A90239CC74000ABC357 /* StarController.swift in Sources */,
 				DD9694F1239C6E8100D5C9F4 /* SceneDelegate.swift in Sources */,
