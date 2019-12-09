@@ -39,4 +39,17 @@ class StarController {
 			NSLog("Error saving stars data: \(error)")
 		}
 	}
+
+	func loadFromPersistentStore() {
+		let fileManager = FileManager.default
+		guard let url = persistentFileURL, fileManager.fileExists(atPath: url.path) else { return }
+
+		do {
+			let data = try Data(contentsOf: url)
+			let decoder = PropertyListDecoder()
+			stars = try decoder.decode([Star].self, from: data)
+		} catch {
+			NSLog("Error loading stars data: \(error)")
+		}
+	}
 }
