@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2F1A8C239CC65200ABC357 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F1A8B239CC65200ABC357 /* Star.swift */; };
+		DD2F1A90239CC74000ABC357 /* StarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F1A8F239CC74000ABC357 /* StarController.swift */; };
 		DD9694EF239C6E8100D5C9F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9694EE239C6E8100D5C9F4 /* AppDelegate.swift */; };
 		DD9694F1239C6E8100D5C9F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9694F0239C6E8100D5C9F4 /* SceneDelegate.swift */; };
 		DD9694F3239C6E8100D5C9F4 /* StarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9694F2239C6E8100D5C9F4 /* StarsViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD2F1A8B239CC65200ABC357 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		DD2F1A8F239CC74000ABC357 /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
 		DD9694EB239C6E8100D5C9F4 /* Stars-Joe-McLaughlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stars-Joe-McLaughlin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9694EE239C6E8100D5C9F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9694F0239C6E8100D5C9F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD2F1A8E239CC65E00ABC357 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD2F1A8B239CC65200ABC357 /* Star.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD2F1A91239CC74400ABC357 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD2F1A8F239CC74000ABC357 /* StarController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
 		DD9694E2239C6E8100D5C9F4 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +82,8 @@
 				DD969502239C6F4600D5C9F4 /* Storyboards */,
 				DD9694F7239C6E8200D5C9F4 /* Assets.xcassets */,
 				DD9694FC239C6E8200D5C9F4 /* Info.plist */,
+				DD2F1A8E239CC65E00ABC357 /* Models */,
+				DD2F1A91239CC74400ABC357 /* Model Controller */,
 			);
 			path = "Stars-Joe-McLaughlin";
 			sourceTree = "<group>";
@@ -156,7 +178,9 @@
 			files = (
 				DD9694F3239C6E8100D5C9F4 /* StarsViewController.swift in Sources */,
 				DD9694EF239C6E8100D5C9F4 /* AppDelegate.swift in Sources */,
+				DD2F1A90239CC74000ABC357 /* StarController.swift in Sources */,
 				DD9694F1239C6E8100D5C9F4 /* SceneDelegate.swift in Sources */,
+				DD2F1A8C239CC65200ABC357 /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

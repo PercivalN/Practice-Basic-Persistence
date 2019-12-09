@@ -14,14 +14,28 @@ class StarsViewController: UIViewController {
 	@IBOutlet weak var distanceTextField: UITextField!
 	@IBOutlet weak var tableView: UITableView!
 
+	let starController = StarController()
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 	}
 
 	@IBAction func printStars(_ sender: Any) {
+
 	}
 	@IBAction func createStar(_ sender: Any) {
+
+		guard let name = nameTextField.text,
+			let distanceString = distanceTextField.text,
+			!name.isEmpty,
+			!distanceString.isEmpty,
+			let distance = Double(distanceString) else { return } // If any of the conditions from line 29 to line 33 is not true then return.
+		starController.createStar(named: name, withDistance: distance)
+		nameTextField.text = ""
+		distanceTextField.text = ""
+		nameTextField.becomeFirstResponder()
+		tableView.reloadData()
 	}
 
 }
