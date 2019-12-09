@@ -27,4 +27,16 @@ class StarController {
 		stars.append(star)
 		return star
 	}
+
+	func saveToPersistentStore() {
+		guard let url = persistentFileURL else { return }
+
+		do {
+			let encoder = PropertyListEncoder()
+			let data = try encoder.encode(stars)
+			try data.write(to: url)
+		} catch {
+			NSLog("Error saving stars data: \(error)")
+		}
+	}
 }
