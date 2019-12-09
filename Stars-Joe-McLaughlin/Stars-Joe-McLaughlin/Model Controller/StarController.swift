@@ -12,6 +12,15 @@ class StarController {
 
 	private(set) var stars: [Star] = []
 
+	// This is a computed property
+	private var persistentFileURL: URL? {
+		let fileManager = FileManager.default
+		// Every app has its own document folder (its sandbox)
+		guard let documents = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else { return nil }
+
+		return documents.appendingPathComponent("stars.plist")
+	}
+
 	@discardableResult func createStar(named name: String, withDistance distance: Double) -> Star {
 
 		let star = Star(name: name, distance: distance)
